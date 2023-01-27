@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.nav-link {
+  color: #284726;
+}
+/* 
+section{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+nav .container .collapse .navbar-nav .nav-item a:hover{
+  background-color: #04bb4a;
+  color:rgb(249, 246, 246);
+}
+nav .container .collapse .navbar-nav .nav-item a.active{
+color:#04bb4a;
+}
+.nav-link:hover {
+  color: black;
+  transition: 0.3s;
+}
+.nav-item {
+  color: aquamarine;
+  font-weight: 500;
+  padding-left: 25px;
+}
+.btn0 {
+  height: 52px;
+  width: 130px;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s;
+  background-color: #3bbd57;
+}
+.btn0:hover {
+  background-color: #759e72;
+  transition: all 0.4s;
+}
+.btn0 a{
+  text-decoration: none;
+  color: white;
+}
+.btn1 {
+  height: 52px;
+  width: 130px;
+  background-color: transparent;
+  color: #284726;
+  outline: none;
+  border: 2px solid #3bbd57;
+}
+.btn1:hover {
+  background-color: #284726;
+  transition: all 0.4s;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn1 a{
+  text-decoration: none;
+  color: black;
+}
+/* ==================== First Page Section CSS================ */
+
+.main {
+  background: url(./images/shutterstock_2026926137-scaled.jpg) no-repeat;
+  min-height: 85vh;
+  width: 100%;
+  background-size: contain;
+  background-color: #04bb4a;
+  align-content: center;
+
+}
+
+.main .container .row .pos {
+  margin-top: 5%;
+}
+
+
+.main h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #759e72;
+}
+ 
+
+  
+
+/* .card .card-body .container .row .pizza{
+  margin-top: 8%;
+}  */
+
+.card .card-body .container .row  .logo img {
+
+ width: 100px;
+}
+
+
+/* ======================Second Page Section CSS===================== */
+
+.green {
+  color: #5fec87;
+}
+
+.ceta h1 {
+  color: #284726;
+}
+.ceta .card:hover {
+  color: #5fec87;
+  transition: all 0.4s;
+  cursor: pointer;
+  box-shadow: 13px 17px 17px -2px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 13px 17px 17px -2px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 13px 17px 17px -2px rgba(0, 0, 0, 0.64);
+}
+
+/* ===========================================Third Page====================================== */
+
+.how .container h1 {
+  color: #284726;
+  width: 100%;
+}
+.how .card {
+  background-color: #5fec87;
+  color: white;
+}
+
+.how .container .carousel-inner img {
+  width: 40%;
+  height: 100%;
+}
+
+.how .container .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #1dc45d;
+}
+
+.how .container .corousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+}
+
+.how .container .corousel,
+.carousel-inner {
+  height: 100%;
+}
+
+.how .container .carousel-inner .carousel-item .carousel-caption {
+  background-color: #ffffff;
+  opacity: 0.6;
+  color: #284726;
+  position: absolute;
+  bottom: -40px;
+}
+
+.how .container .corousel,
+.carousel-inner,
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*==================== 
+  Footer 
+====================== */
+
+/* Main Footer */
+footer .main-footer {
+  padding: 20px 0;
+  background:  #04bb4a;
+}
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Copy Right Footer */
+.footer-copyright {
+  /* background: rgb(245, 241, 241); */
+  padding: 5px 0;
+  color: black;
+}
+.footer-copyright .logo {
+  display: inherit;
+}
+.footer-copyright nav {
+  float: right;
+  margin-top: 5px;
+}
+.footer-copyright nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-copyright nav ul li {
+  border-left: 1px solid #f8f1f1;
+  display: inline-block;
+  line-height: 12px;
+  margin: 0;
+  padding: 0 8px;
+}
+.footer-copyright nav ul li a {
+  color: #969696;
+}
+.footer-copyright nav ul li:first-child {
+  border: medium none;
+  padding-left: 0;
+}
+.footer-copyright p {
+  color: #969696;
+  margin: 2px 0 0;
+}
+
+/* Footer Top */
+.footer-top {
+  background: #252525;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #222;
+}
+
+/* Footer transparent */
+footer.transparent .footer-top,
+footer.transparent .main-footer {
+  background: transparent;
+}
+footer.transparent .footer-copyright {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Footer light */
+footer.light .footer-top {
+  background: #f9f9f9;
+}
+footer.light .main-footer {
+  background: #f9f9f9;
+}
+footer.light .footer-copyright {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Footer 4 */
+.footer- .logo {
+  display: inline-block;
+}
+
+/*==================== 
+  Widgets 
+====================== */
+.widget {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.widget.widget-last {
+  margin-bottom: 0px;
+}
+.widget.no-box {
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 40px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+}
+.widget.subscribe p {
+  margin-bottom: 18px;
+}
+.widget li a {
+  color: #f5f2ee;
+}
+.widget li a:hover {
+  color: #0f0f0f;
+}
+.widget-title {
+  margin-bottom: 20px;
+}
+.widget-title span {
+  background: #839fad none repeat scroll 0 0;
+  display: block;
+  height: 1px;
+  margin-top: 25px;
+  position: relative;
+  width: 20%;
+}
+.widget-title span::after {
+  background: inherit;
+  content: "";
+  height: inherit;
+  position: absolute;
+  top: -4px;
+  width: 50%;
+}
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.widget .badge {
+  float: right;
+  background: #7f7f7f;
+}
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small {
+  color: #fff;
+}
+
+ul.social-footer2 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+ul.social-footer2 li {
+  display: inline-block;
+  padding: 0;
+}
+ul.social-footer2 li a:hover {
+  background-color: #0c0c0b;
+}
+ul.social-footer2 li a {
+  display: block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+.btn {
+  background-color: #3bbd57;
+  color: #fff;
+}
+.btn:hover,
+.btn:focus,
+.btn.active {
+  background: #141414;
+  color: #fff;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 250ms ease-in-out 0s;
+  -moz-transition: all 250ms ease-in-out 0s;
+  -ms-transition: all 250ms ease-in-out 0s;
+  -o-transition: all 250ms ease-in-out 0s;
+  transition: all 250ms ease-in-out 0s;
+}
+
+.how .container .carousel-inner .carousel-item .carousel-caption h3 {
+  margin-top: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #759e72;
+  }
+/* 
+  .main .container, .row, .open {
+    padding-top: 30px;
+    font-size: 20px;
+} */
+
+  .card .card-body .container .row .logo .pizza{
+    margin-top: 8%;
+  }
+  
+  .how .container .carousel-inner .carousel-item .carousel-caption {
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #284726;
+    position: absolute;
+    bottom: -30px;
+  }
+  .how .container .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 20px;
+  }
+
+  .main {
+    background: url(./images/shutterstock_2026926137-scaled.jpg) no-repeat;
+    min-height: 85vh;
+    max-width: 100%;
+    background-size: contain;
+    background-color: #04bb4a;
+    align-content: center;
+    margin-top: 20%;
+  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #759e72;
+  }
+  
+  .how .container .carousel-inner .carousel-item .carousel-caption {
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #284726;
+    bottom: -30px;
+    opacity: 0.6;
+  }
+
+  .how .container .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 20px;
+  }
+
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #759e72;
+  }
+
+  .how .container .carousel-inner .carousel-item .carousel-caption {
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #284726;
+    bottom: -30px;
+  }
+
+  .how .container .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
