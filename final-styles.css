@@ -21,8 +21,7 @@ section{
 } */
 
 nav .container .collapse .navbar-nav .nav-item a:hover{
-  background-color: #04bb4a;
-  color:rgb(249, 246, 246);
+  color:rgb(15, 1, 1);
 }
 nav .container .collapse .navbar-nav .nav-item a.active{
 color:#04bb4a;
@@ -119,6 +118,7 @@ color:#04bb4a;
 .ceta h1 {
   color: #284726;
 }
+
 .ceta .card:hover {
   color: #5fec87;
   transition: all 0.4s;
