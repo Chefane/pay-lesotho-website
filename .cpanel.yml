@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/nosi/pay-lesotho-website/public_html/
+    - export DEPLOYPATH=/home/nosi/public_html/pay-lesotho-website
     - /bin/cp -R images $DEPLOYPATH
