@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/paylesot/public_html/pay-lesotho-website
+    - export DEPLOYPATH=/home/paylesot/public_html/pay-lesotho-website/index.html
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp final-style.css $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
