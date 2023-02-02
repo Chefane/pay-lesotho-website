@@ -138,6 +138,10 @@ color:#04bb4a;
   color: white;
 }
 
+.ceta .container .row {
+  margin-left: 5%;
+}
+
 .how .container .carousel-inner img {
   width: 40%;
   height: 100%;
@@ -383,6 +387,10 @@ ul.social-footer2 li a {
     font-size: 4rem;
     font-weight: 800;
     color: #759e72;
+  }
+
+  .ceta .container .row {
+    margin-left: 9%;
   }
 /* 
   .main .container, .row, .open {
